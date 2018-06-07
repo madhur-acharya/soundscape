@@ -1,0 +1,32 @@
+img{filter: invert(100%);}
+img:hover{filter: invert(75%);}
+body{width: max-content; margin: 0px 2px 0px 2px; padding: 0px; font-family: Helvetica, Arial, sans-serif;}
+td{vertical-align: middle; background-color: #303030; box-shadow: inset 0 -2px 15px black;}
+table{border: 2px solid black;}
+ul{padding-left: 0px; margin: 0px; background-color: #F0F0F0;}
+li{list-style-type: none; padding: 5px 0px 5px 5px; text-overflow: ellipsis; width: 270px; overflow: hidden; white-space: nowrap; font-weight: bold; cursor: pointer; margin: 3px 0px 3px 0px; border-left: 2px solid transparent;}
+li:hover{color: dimgrey; border-left: 2px solid currentcolor;}
+#alias{vertical-align: middle; cursor: pointer; border-radius: 100%; }
+.song{color: white; text-align: center; text-overflow: ellipsis; width: 200px; overflow: hidden; white-space: nowrap; font-weight: bold; margin: 0px auto 5px auto; padding: 5px; border-bottom: 2px solid black;}
+.hide{display: none;}
+.controler{width: fit-content; margin: auto; padding: 0px;}
+#dropdown{margin: 2px 0px 0px 50% ; transform: translate(-50%, 0%); cursor:pointer; text-align: center; padding: 0px; }
+#fake_button:checked ~ .playlist{ max-height:150px;}
+.playlist{overflow-y: scroll; overflow-x: hidden; max-height: 0; transition: max-height 0.5s ease-in-out;}
+.scrollbar::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5;}
+.scrollbar::-webkit-scrollbar-thumb{background-color: #000000;}
+.scrollbar::-webkit-scrollbar{ width: 6px; background-color: #F5F5F5;}
+.settings{width: 15px; padding: 0px; margin: 0px; border-radius: 100%;}
+#settings{width: 16px; display: inline-block; margin-left: 3px;}
+#dropdown_box{background-color: #303030; box-shadow: inset 0 -4px 5px black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#previous{transform: scaleX(-1);}
+.previous{width: 22px; padding: 6px;}
+.next{width: 22px; padding: 6px;}
+.stop{width: 16px;  padding: 9px 6px 9px 6px;}
+.ran{width: 22px; padding: 6px;}
+.pap{width: 34px;}
+.next:active{width: 20px; padding: 7px; }
+.previous:active{width: 20px; padding: 7px; }
+.random{width: 18px; padding: 8px; filter: invert(50%);}
+.stop:active{width: 14px;  padding: 10px 7px 10px 7px;}
+.pap:active{width: 32px; padding: 1px;}

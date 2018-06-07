@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<input id="upload" type="file" multiple accept="audio/*" hidden>
+	<table>
+	<tbody>
+		<tr>
+			<td ><img id= "alias"  src= "resources/logo.svg" width= "60px"></td>
+			<td >
+				<p id= "song" class= "song " >song name goes here</p>
+				<div class= "controler">
+					<img id= "randomize" class= "ran " src= "resources/shuffle.svg">
+					<img id= "previous" class= "previous " src= "resources/next.svg">
+					<img id= "pause" class= "pap" src= "resources/pause.svg">
+					<img id= "play" class= "pap hide " src= "resources/play.svg">
+					<img id= "next" class= "next " src= "resources/next.svg">
+					<img id= "stop" class= "stop " src= "resources/stop.svg">
+					<div id= "settings">
+						<img id= "reset" class= "settings " src= "resources/reset.svg">
+						<img id= "mute" class= "settings " src= "resources/unmute.svg">
+					</div>
+				</div>
+			</td>
+		</tr>	
+	</tbody>
+	</table>
+	<input id= "fake_button" type= "checkbox" hidden>
+	<ul id= "playlist" class= "playlist scrollbar" ></ul>
+	<div id= "dropdown_box"><img id= "dropdown" src= "resources/dropdown.png" height= "10px"></div>
+	<script src= "popup.js" type= "text/javascript"></script>
+</body>
+</html>
